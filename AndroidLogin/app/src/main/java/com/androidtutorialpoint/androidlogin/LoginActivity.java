@@ -22,6 +22,7 @@ import java.util.Map;
 public class LoginActivity extends AppCompatActivity {
 
     private static final String TAG = "LoginActivity";
+    //change server ip according to configured PHP Server
     private static final String URL_FOR_LOGIN = "http://192.168.8.102:80/android_login_example/login.php";
     ProgressDialog progressDialog;
     private EditText loginInputEmail, loginInputPassword;
